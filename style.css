@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.wrapper {
+    background-image: linear-gradient(to right, #fe2f00, #9dfe00);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    background-color: rgb(0, 0, 0, .7);
+    width: 250px;
+    height: 75px;
+    color: #ffffff;
+    text-align: right;
+    padding: 10% 4%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: max-content;
+    text-align: center;
+    background-color: #ffffff;
+    overflow: hidden;
+    gap: 2px;
+}
+
+.gridItem{
+    padding: 15px 10px;
+    background-color: #bff6e9;
+    cursor: pointer;
+}
+
+.gridItem:hover{
+    background-color: #00aafe;
+    color: #ffffff;
+    scale: 1.1;
+}
+
+.gridItem:active{
+    background-color: #ff8000;
+    color: #ffffff;
+    scale: 1;
+}
+.ac{
+    grid-column: 1 / span 2;
+}
+
+.equal{
+    grid-column: 3 / span 2;
+}
