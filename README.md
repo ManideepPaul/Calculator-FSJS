@@ -1,6 +1,6 @@
 # Calculator
 
-- I used HTML, CSS, and JavaScript to create this project. 
+- I used HTML, CSS, and JavaScript in this project. 
 
 - It took me around **3 hour** max to complete the project.
 
